@@ -23,10 +23,10 @@ BLACKLIST = [
 ]
 
 SITE_ALTS = {
-    'twitter.com': os.getenv('WHOOGLE_ALT_TW', 'nitter.net'),
-    'youtube.com': os.getenv('WHOOGLE_ALT_YT', 'invidious.snopyta.org'),
-    'instagram.com': os.getenv('WHOOGLE_ALT_IG', 'bibliogram.art/u'),
-    'reddit.com': os.getenv('WHOOGLE_ALT_RD', 'libredd.it')
+    'twitter.com': os.getenv('codey_ALT_TW', 'nitter.net'),
+    'youtube.com': os.getenv('codey_ALT_YT', 'invidious.snopyta.org'),
+    'instagram.com': os.getenv('codey_ALT_IG', 'bibliogram.art/u'),
+    'reddit.com': os.getenv('codey_ALT_RD', 'libredd.it')
 }
 
 

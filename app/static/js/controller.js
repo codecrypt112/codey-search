@@ -18,7 +18,7 @@ const setupSearchLayout = () => {
 };
 
 const setupConfigLayout = () => {
-    // Setup whoogle config
+    // Setup codey config
     const collapsible = document.getElementById("config-collapsible");
     collapsible.addEventListener("click", function() {
         this.classList.toggle("active");
@@ -45,7 +45,7 @@ const loadConfig = event => {
     xhrPUT.open("PUT", "config?name=" + config + ".conf");
     xhrPUT.onload = function() {
         if (xhrPUT.readyState === 4 && xhrPUT.status !== 200) {
-            alert("Error loading Whoogle config");
+            alert("Error loading codey config");
             return;
         }
 

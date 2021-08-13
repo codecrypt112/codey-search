@@ -1,4 +1,5 @@
 const handleUserInput = searchBar => {
+
     let xhrRequest = new XMLHttpRequest();
     xhrRequest.open("POST", "autocomplete");
     xhrRequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");

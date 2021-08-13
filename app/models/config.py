@@ -11,25 +11,25 @@ class Config:
             return False
 
         app_config = current_app.config
-        self.url = os.getenv('WHOOGLE_CONFIG_URL', '')
-        self.lang_search = os.getenv('WHOOGLE_CONFIG_SEARCH_LANGUAGE', '')
-        self.lang_interface = os.getenv('WHOOGLE_CONFIG_LANGUAGE', '')
+        self.url = os.getenv('codey_CONFIG_URL', '')
+        self.lang_search = os.getenv('codey_CONFIG_SEARCH_LANGUAGE', '')
+        self.lang_interface = os.getenv('codey_CONFIG_LANGUAGE', '')
         self.style = os.getenv(
-            'WHOOGLE_CONFIG_STYLE',
+            'codey_CONFIG_STYLE',
             open(os.path.join(app_config['STATIC_FOLDER'],
                               'css/variables.css')).read())
-        self.block = os.getenv('WHOOGLE_CONFIG_BLOCK', '')
-        self.ctry = os.getenv('WHOOGLE_CONFIG_COUNTRY', '')
-        self.theme = os.getenv('WHOOGLE_CONFIG_THEME', '')
-        self.safe = read_config_bool('WHOOGLE_CONFIG_SAFE')
-        self.dark = read_config_bool('WHOOGLE_CONFIG_DARK')  # deprecated
-        self.alts = read_config_bool('WHOOGLE_CONFIG_ALTS')
-        self.nojs = read_config_bool('WHOOGLE_CONFIG_NOJS')
-        self.tor = read_config_bool('WHOOGLE_CONFIG_TOR')
-        self.near = os.getenv('WHOOGLE_CONFIG_NEAR', '')
-        self.new_tab = read_config_bool('WHOOGLE_CONFIG_NEW_TAB')
-        self.view_image = read_config_bool('WHOOGLE_CONFIG_VIEW_IMAGE')
-        self.get_only = read_config_bool('WHOOGLE_CONFIG_GET_ONLY')
+        self.block = os.getenv('codey_CONFIG_BLOCK', '')
+        self.ctry = os.getenv('codey_CONFIG_COUNTRY', '')
+        self.theme = os.getenv('codey_CONFIG_THEME', '')
+        self.safe = read_config_bool('codey_CONFIG_SAFE')
+        self.dark = read_config_bool('codey_CONFIG_DARK')  # deprecated
+        self.alts = read_config_bool('codey_CONFIG_ALTS')
+        self.nojs = read_config_bool('codey_CONFIG_NOJS')
+        self.tor = read_config_bool('codey_CONFIG_TOR')
+        self.near = os.getenv('codey_CONFIG_NEAR', '')
+        self.new_tab = read_config_bool('codey_CONFIG_NEW_TAB')
+        self.view_image = read_config_bool('codey_CONFIG_VIEW_IMAGE')
+        self.get_only = read_config_bool('codey_CONFIG_GET_ONLY')
 
         self.safe_keys = [
             'lang_search',

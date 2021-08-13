@@ -15,8 +15,8 @@ app = Flask(__name__, static_folder=os.path.dirname(
     os.path.abspath(__file__)) + '/static')
 
 # Load .env file if enabled
-if os.getenv("WHOOGLE_DOTENV", ''):
-    dotenv_path = '../whoogle.env'
+if os.getenv("codey_DOTENV", ''):
+    dotenv_path = '../codey.env'
     load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)),
                              dotenv_path))
 
@@ -48,7 +48,7 @@ app.config['CONFIG_PATH'] = os.getenv(
 app.config['DEFAULT_CONFIG'] = os.path.join(
     app.config['CONFIG_PATH'],
     'config.json')
-app.config['CONFIG_DISABLE'] = os.getenv('WHOOGLE_CONFIG_DISABLE', '')
+app.config['CONFIG_DISABLE'] = os.getenv('codey_CONFIG_DISABLE', '')
 app.config['SESSION_FILE_DIR'] = os.path.join(
     app.config['CONFIG_PATH'],
     'session')
@@ -62,7 +62,7 @@ app.config['BANG_FILE'] = os.path.join(
 # The alternative to Google Translate is treated a bit differently than other
 # social media site alternatives, in that it is used for any translation
 # related searches.
-translate_url = os.getenv('WHOOGLE_ALT_TL', 'https://lingva.ml')
+translate_url = os.getenv('codey_ALT_TL', 'https://lingva.ml')
 if not translate_url.startswith('http'):
     translate_url = 'https://' + translate_url
 app.config['TRANSLATE_URL'] = translate_url

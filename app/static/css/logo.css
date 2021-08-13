@@ -1,9 +1,8 @@
-.cls-1 {
-    fill: transparent;
-}
-
 svg {
-    height: inherit;
+    color: black;
+    position: relative;
+    margin:  auto;
+    width: 100%;
 }
 
 a {
@@ -14,4 +13,15 @@ a {
     svg {
         margin-top: .7em;
     }
+}
+
+@media (max-width: 300px) {
+    svg{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        transform: scale(0.5);
+        overflow-x: hidden;
+    }
+
 }

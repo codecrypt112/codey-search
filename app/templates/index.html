@@ -1,4 +1,4 @@
-<html style="background: #000;">
+<html>
 	<head>
 		<link rel="apple-touch-icon" sizes="57x57" href="static/img/favicon/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/apple-icon-60x60.png">
@@ -19,7 +19,7 @@
 		<meta name="msapplication-TileImage" content="static/img/favicon/ms-icon-144x144.png">
         <script type="text/javascript" src="{{ cb_url('autocomplete.js') }}"></script>
         <script type="text/javascript" src="{{ cb_url('controller.js') }}"></script>
-		<link rel="search" href="opensearch.xml" type="application/opensearchdescription+xml" title="Whoogle Search">
+		<link rel="search" href="opensearch.xml" type="application/opensearchdescription+xml" title="codey Search">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="{{ cb_url('variables.css') }}">
         {% if config.theme  %}
@@ -42,8 +42,8 @@
 				.collapsible { display: none; }
 			</style>
 		</noscript>
-		<style>{{ config.style }}</style>
-		<title>Whoogle Search</title>
+		
+		<title>Codey Search</title>
 	</head>
 	<body id="main">
 		<div class="search-container">
@@ -196,11 +196,6 @@
 			</div>
 		{% endif %}
 		</div>
-		<footer>
-			<p class="footer">
-				Whoogle Search v{{ version_number }} ||
-				<a id="gh-link" href="https://github.com/benbusby/whoogle-search">{{ translation['github-link'] }}</a>
-			</p>
-		</footer>
+		
 	</body>
 </html>

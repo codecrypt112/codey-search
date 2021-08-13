@@ -201,7 +201,7 @@ class Filter:
             src = 'https:' + src
 
         if src.startswith(LOGO_URL):
-            # Re-brand with Whoogle logo
+            # Re-brand with codey logo
             element.replace_with(BeautifulSoup(
                 render_template('logo.html', dark=self.dark),
                 features='html.parser'))

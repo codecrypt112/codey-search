@@ -145,8 +145,8 @@ class Request:
 
     Attributes:
         normal_ua: the user's current user agent
-        root_path: the root path of the whoogle instance
-        config: the user's current whoogle configuration
+        root_path: the root path of the codey instance
+        config: the user's current codey configuration
     """
 
     def __init__(self, normal_ua, root_path, config: Config):
@@ -164,11 +164,11 @@ class Request:
             self.modified_user_agent_mobile = gen_user_agent(True)
 
         # Set up proxy, if previously configured
-        proxy_path = os.environ.get('WHOOGLE_PROXY_LOC', '')
+        proxy_path = os.environ.get('codey_PROXY_LOC', '')
         if proxy_path:
-            proxy_type = os.environ.get('WHOOGLE_PROXY_TYPE', '')
-            proxy_user = os.environ.get('WHOOGLE_PROXY_USER', '')
-            proxy_pass = os.environ.get('WHOOGLE_PROXY_PASS', '')
+            proxy_type = os.environ.get('codey_PROXY_TYPE', '')
+            proxy_user = os.environ.get('codey_PROXY_USER', '')
+            proxy_pass = os.environ.get('codey_PROXY_PASS', '')
             auth_str = ''
             if proxy_user:
                 auth_str = proxy_user + ':' + proxy_pass

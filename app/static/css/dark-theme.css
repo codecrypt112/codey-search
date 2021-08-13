@@ -1,183 +1,183 @@
 html {
-    background: var(--whoogle-dark-page-bg) !important;
+    background: var(--codey-dark-page-bg) !important;
 }
 
 body {
-    background: var(--whoogle-dark-page-bg) !important;
+    background: var(--codey-dark-page-bg) !important;
 }
 
 div {
-    color: var(--whoogle-dark-text) !important;
+    color: var(--codey-dark-text) !important;
 }
 
 label {
-    color: var(--whoogle-dark-contrast-text) !important;
+    color: var(--codey-dark-contrast-text) !important;
 }
 
 li a {
-    color: var(--whoogle-dark-result-url) !important;
+    color: var(--codey-dark-result-url) !important;
 }
 
 li {
-    color: var(--whoogle-dark-text) !important;
+    color: var(--codey-dark-text) !important;
 }
 
 textarea {
-    background: var(--whoogle-dark-page-bg) !important;
-    color: var(--whoogle-dark-text) !important;
+    background: var(--codey-dark-page-bg) !important;
+    color: var(--codey-dark-text) !important;
 }
 
 a:visited h3 div {
-    color: var(--whoogle-dark-result-visited) !important;
+    color: var(--codey-dark-result-visited) !important;
 }
 
 a:link h3 div {
-    color: var(--whoogle-dark-result-title) !important;
+    color: var(--codey-dark-result-title) !important;
 }
 
 a:link div {
-    color: var(--whoogle-dark-result-url) !important;
+    color: var(--codey-dark-result-url) !important;
 }
 
 div span {
-    color: var(--whoogle-dark-secondary-text) !important;
+    color: var(--codey-dark-secondary-text) !important;
 }
 
 input {
-    background-color: var(--whoogle-dark-page-bg) !important;
-    color: var(--whoogle-dark-text) !important;
+    background-color: var(--codey-dark-page-bg) !important;
+    color: var(--codey-dark-text) !important;
 }
 
 select {
-    background: var(--whoogle-dark-page-bg) !important;
-    color: var(--whoogle-dark-text) !important;
+    background: var(--codey-dark-page-bg) !important;
+    color: var(--codey-dark-text) !important;
 }
 
 .search-container {
-    background-color: var(--whoogle-dark-page-bg) !important;
+    background-color: var(--codey-dark-page-bg) !important;
 }
 
 .ZINbbc {
-    background-color: var(--whoogle-dark-result-bg) !important;   
+    background-color: var(--codey-dark-result-bg) !important;   
 }
 
 .BVG0Nb {
-    background-color: var(--whoogle-dark-result-bg) !important; 
+    background-color: var(--codey-dark-result-bg) !important; 
 }
 
 .bRsWnc {
-    background-color: var(--whoogle-dark-result-bg) !important;   
+    background-color: var(--codey-dark-result-bg) !important;   
 }
 
 .BVG0Nb {
-    background-color: var(--whoogle-dark-page-bg) !important;
+    background-color: var(--codey-dark-page-bg) !important;
 }
 
 .x54gtf {
-    background-color: var(--whoogle-dark-divider) !important;
+    background-color: var(--codey-dark-divider) !important;
 }
 
 .Q0HXG {
-    background-color: var(--whoogle-dark-divider) !important;
+    background-color: var(--codey-dark-divider) !important;
 }
 
 .LKSyXe {
-    background-color: var(--whoogle-dark-divider) !important;
+    background-color: var(--codey-dark-divider) !important;
 }
 
 .home-search {
-    border-color: var(--whoogle-dark-element-bg) !important;
+    border-color: var(--codey-dark-element-bg) !important;
 }
 
 #search-bar {
-    border-color: var(--whoogle-dark-element-bg) !important;
-    color: var(--whoogle-dark-text) !important;
-    background-color: var(--whoogle-dark-result-bg) !important;
-    border-bottom: 2px solid var(--whoogle-dark-element-bg);
+    border-color: var(--codey-dark-element-bg) !important;
+    color: var(--codey-dark-text) !important;
+    background-color: var(--codey-dark-result-bg) !important;
+    border-bottom: 2px solid var(--codey-dark-element-bg);
 }
 
 #search-bar:focus {
-    color: var(--whoogle-dark-text) !important;
+    color: var(--codey-dark-text) !important;
 }
 
 #search-submit {
-    border: 1px solid var(--whoogle-dark-element-bg) !important;
-    background: var(--whoogle-dark-element-bg) !important;
-    color: var(--whoogle-dark-contrast-text) !important;
+    border: 1px solid var(--codey-dark-element-bg) !important;
+    background: var(--codey-dark-element-bg) !important;
+    color: var(--codey-dark-contrast-text) !important;
 }
 
 .info-text {
-    color: var(--whoogle-dark-contrast-text) !important;
+    color: var(--codey-dark-contrast-text) !important;
     opacity: 75%;
 }
 
 .collapsible {
-    color: var(--whoogle-dark-text) !important;
+    color: var(--codey-dark-text) !important;
 }
 
 .collapsible:after {
-    color: var(--whoogle-dark-text) !important;
+    color: var(--codey-dark-text) !important;
 }
 
 .active {
-    background-color: var(--whoogle-dark-element-bg) !important;
-    color: var(--whoogle-dark-contrast-text) !important;
+    background-color: var(--codey-dark-element-bg) !important;
+    color: var(--codey-dark-contrast-text) !important;
 }
 
 .content {
-    background-color: var(--whoogle-dark-element-bg) !important;
-    color: var(--whoogle-contrast-text) !important;
+    background-color: var(--codey-dark-element-bg) !important;
+    color: var(--codey-contrast-text) !important;
 }
 
 .active:after {
-    color: var(--whoogle-dark-contrast-text) !important;
+    color: var(--codey-dark-contrast-text) !important;
 }
 
 #gh-link {
-    color: var(--whoogle-dark-contrast-text);
+    color: var(--codey-dark-contrast-text);
 }
 
 .autocomplete-items {
-    border: 1px solid var(--whoogle-dark-element-bg);
+    border: 1px solid var(--codey-dark-element-bg);
 }
 
 .autocomplete-items div {
-    color: var(--whoogle-dark-text);
-    background-color: var(--whoogle-dark-page-bg);
-    border-bottom: 1px solid var(--whoogle-dark-element-bg);
+    color: var(--codey-dark-text);
+    background-color: var(--codey-dark-page-bg);
+    border-bottom: 1px solid var(--codey-dark-element-bg);
 }
 
 .autocomplete-items div:hover {
-    background-color: var(--whoogle-dark-element-bg);
-    color: var(--whoogle-dark-contrast-text) !important;
+    background-color: var(--codey-dark-element-bg);
+    color: var(--codey-dark-contrast-text) !important;
 }
 
 .autocomplete-active {
-    background-color: var(--whoogle-dark-element-bg) !important;
-    color: var(--whoogle-dark-contrast-text) !important;
+    background-color: var(--codey-dark-element-bg) !important;
+    color: var(--codey-dark-contrast-text) !important;
 }
 
 .footer {
-    color: var(--whoogle-dark-text);
+    color: var(--codey-dark-text);
 }
 
 path {
-    fill: var(--whoogle-dark-logo);
+    fill: var(--codey-dark-logo);
 }
 
 .header-div {
-    background-color: var(--whoogle-dark-result-bg) !important;
+    background-color: var(--codey-dark-result-bg) !important;
 }
 
 #search-reset {
-    color: var(--whoogle-dark-text) !important;
+    color: var(--codey-dark-text) !important;
 }
 
 .mobile-search-bar {
-    background-color: var(--whoogle-dark-result-bg) !important;
-    color: var(--whoogle-dark-text) !important;
+    background-color: var(--codey-dark-result-bg) !important;
+    color: var(--codey-dark-text) !important;
 }
 
 .search-bar-desktop {
-    color: var(--whoogle-dark-text) !important;
+    color: var(--codey-dark-text) !important;
 }

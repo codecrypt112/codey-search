@@ -22,7 +22,7 @@ def test_feeling_lucky(client):
 
 def test_ddg_bang(client):
     # Bang at beginning of query
-    rv = client.get('/search?q=!gh%20whoogle')
+    rv = client.get('/search?q=!gh%20codey')
     assert rv._status_code == 302
     assert rv.headers.get('Location').startswith('https://github.com')
 
@@ -69,4 +69,4 @@ def test_config(client):
 def test_opensearch(client):
     rv = client.get('/opensearch.xml')
     assert rv._status_code == 200
-    assert '<ShortName>Whoogle</ShortName>' in str(rv.data)
+    assert '<ShortName>codey</ShortName>' in str(rv.data)

@@ -1,28 +1,28 @@
 /* Colors */
 :root {
     /* LIGHT THEME COLORS */
-    --whoogle-logo: #685e79;
-    --whoogle-page-bg: #ffffff;
-    --whoogle-element-bg: #685e79;
-    --whoogle-text: #000000;
-    --whoogle-contrast-text: #ffffff;
-    --whoogle-secondary-text: #70757a;
-    --whoogle-result-bg: #ffffff;
-    --whoogle-result-title: #1967d2;
-    --whoogle-result-url: #0d652d;
-    --whoogle-result-visited: #4b11a8;
-    --whoogle-divider: #dfe1e5;
+    --codey-logo: #232224;
+    --codey-page-bg: linear-gradient(to right bottom, #75e7e2, #61dcfe, #87caff, #bfb3fc, #e99bd5);
+    --codey-element-bg: #685e79;
+    --codey-text: #000000;
+    --codey-contrast-text: #ffffff;
+    --codey-secondary-text: #70757a;
+    --codey-result-bg: #ffffff;
+    --codey-result-title: #1967d2;
+    --codey-result-url: #0d652d;
+    --codey-result-visited: #4b11a8;
+    --codey-divider: #dfe1e5;
 
     /* DARK THEME COLORS */
-    --whoogle-dark-logo: #888888;
-    --whoogle-dark-page-bg: #080808;
-    --whoogle-dark-element-bg: #111111;
-    --whoogle-dark-text: #dddddd;
-    --whoogle-dark-contrast-text: #aaaaaa;
-    --whoogle-dark-secondary-text: #8a8b8c;
-    --whoogle-dark-result-bg: #111111;
-    --whoogle-dark-result-title: #dddddd;
-    --whoogle-dark-result-url: #eceff4;
-    --whoogle-dark-result-visited: #959595;
-    --whoogle-dark-divider: #111111;
+    --codey-dark-logo: #888888;
+    --codey-dark-page-bg: #080808;
+    --codey-dark-element-bg: #111111;
+    --codey-dark-text: #dddddd;
+    --codey-dark-contrast-text: #aaaaaa;
+    --codey-dark-secondary-text: #8a8b8c;
+    --codey-dark-result-bg: #111111;
+    --codey-dark-result-title: #dddddd;
+    --codey-dark-result-url: #eceff4;
+    --codey-dark-result-visited: #959595;
+    --codey-dark-divider: #111111;
 }
